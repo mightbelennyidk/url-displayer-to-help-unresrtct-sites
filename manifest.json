@@ -2,12 +2,13 @@
   "manifest_version": 3,
   "name": "FNF Popup Game",
   "version": "1.0",
+  "description": "Play Friday Night Funkin' in a popup!",
   "action": {
     "default_popup": "popup.html",
     "default_icon": "icon.png"
   },
-  "permissions": [],
   "background": {
     "service_worker": "background.js"
-  }
+  },
+  "permissions": []
 }
